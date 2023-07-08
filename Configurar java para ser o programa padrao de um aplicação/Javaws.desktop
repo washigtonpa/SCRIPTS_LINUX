@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Java 8 Web Start
+Comment=Java 8 Web Start
+Exec=/usr/lib/jvm/jdk-oracle_1.8.0_202/bin/javaws %u
+Terminal=false
+Type=Application
+Icon=/opt/icons/javaws.png
+Categories=Application;Network;
+MimeType=application/x-java-jnlp-file;
+Name[pt_BR]=Javaws
+
+

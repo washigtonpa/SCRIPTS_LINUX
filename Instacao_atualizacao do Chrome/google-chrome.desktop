@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Google Chrome
+GenericName=Navegador da Internet
+Comment=Acessar a internet
+Icon=google-chrome
+Exec=/usr/bin/google-chrome-stable %U --proxy-server=https=ip_meu_proxy:3128
+Actions=new-window;new-private-window;
+MimeType=application/pdf;application/rdf+xml;application/rss+xml;application/xhtml+xml;application/xhtml_xml;application/xml;image/gif;image/jpeg;image/png;image/webp;text/html;text/xml;x-scheme-handler/ftp;x-scheme-handler/http;x-scheme-handler/https;
+Categories=Network;WebBrowser;
+StartupNotify=true
+
+[Desktop Action new-window]
+Name=Nova janela
+Exec=/usr/bin/google-chrome-stable
+
+[Desktop Action new-private-window]
+Name=Nova janela anônima
+Exec=/usr/bin/google-chrome-stable --incognito
